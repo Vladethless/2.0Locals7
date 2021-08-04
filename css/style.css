@@ -1817,7 +1817,7 @@ img{
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding: 40px 0 130px;
+	padding: 40px 0 40px;
 }
 
 .services-carousel{
@@ -2574,7 +2574,7 @@ img{
 
 .projects-section{
 	position: relative;
-	padding:125px 0px 130px;
+	padding:40px 0 40px;
 }
 
 .projects-section .inner-container{
@@ -3227,7 +3227,7 @@ img{
 
 .project-detail{
 	position: relative;
-	padding: 130px 0;
+	padding: 20px 0;
 }
 
 .project-detail .image-box{
@@ -3251,7 +3251,7 @@ img{
 	margin-bottom: 40px;
 }
 
-.project-detail .lower-content .title-box:before{
+/* .project-detail .lower-content .title-box:before{
 	position: absolute;
 	left: 50%;
 	top: 48px;
@@ -3259,7 +3259,7 @@ img{
 	width: 2px;
 	background-color: #dddddd;
 	content: "";
-}
+} */
 
 .project-detail .title-box h2{
 	float: left;
