@@ -130,7 +130,7 @@ p{
 
 .auto-container{
 	position:static;
-	max-width:1200px;
+	max-width:1350px;
 	padding:0px 15px;
 	margin:0 auto;
 }
@@ -1273,7 +1273,7 @@ img{
 	background: rgba(0,0,0,.50);
 }
 
-.main-slider h5{
+.main-slider .p_1{
 	font-size:24px;
 	color:#ffffff;
 	font-weight:700;
@@ -1314,8 +1314,12 @@ img{
 	display:none !important;	
 }
 
-.main-slider.style-two h2{
+.main-slider.style-two .p_2{
 	font-size: 72px;
+	color:#ffffff;
+	font-weight:700;
+	line-height:1.2em;
+	font-family: Raleway, sans-serif;
 }
 
 .arrow-down{
@@ -1361,7 +1365,7 @@ img{
 	margin-bottom: 20px;
 }
 
-.sec-title h2{
+.sec-title h1{
 	position: relative;
 	display: block;
 	font-size: 36px;
@@ -1371,7 +1375,7 @@ img{
 	padding-bottom: 25px;
 }
 
-.sec-title h2:before{
+.sec-title h1:before{
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1527,20 +1531,22 @@ img{
 	margin-bottom: 40px;
 }
 
-.about-us .content-column h4{
+.about-us .content-column p{
 	position: relative;
 	display: block;
 	font-size: 20px;
 	line-height: 34px;
 	color: #222222;
 	font-weight: 500;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
+    font-family: 'Raleway', sans-serif;
 }
 
-.about-us .content-column h4 span{
+.about-us .content-column p span{
 	display: inline-block;
 	font-size: 24px;
-	color: #ff9f14;
+	color: #ff9f14;	
+    font-family: 'Raleway', sans-serif;
 }
 
 .about-us .content-column .text{
@@ -2493,13 +2499,14 @@ img{
 	bottom: 0;
 }
 
-.fun-fact-section .title-column h3{
+.fun-fact-section .title-column p{
 	position: relative;
 	font-size: 30px;
 	line-height: 44px;
 	color: #ffffff;
 	font-weight: 800;
 	margin-left: -100px;
+	font-family: Raleway, sans-serif;
 }
 
 .fun-fact-section .content-column .row{
@@ -3320,11 +3327,14 @@ img{
 }
 
 .project-detail .lower-content p{
-	font-size: 15px;
-	line-height: 2em;
-	color: #777777;
-	font-weight: 400;
-	margin-bottom: 60px;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 34px;
+    color: #222222;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .project-detail .two-column{
@@ -3337,17 +3347,17 @@ img{
 
 .project-detail .two-column .info-column h2{
 	font-weight: 700;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 } 
 
 .project-detail .sub-title{
 	display: block;
 	font-size: 18px;
-	line-height: 26px;
-	color: #bbbbbb;
+	line-height: 35px;
+	color: #7a7979;
 	font-weight: 400;
 	font-style: italic;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .project-detail .two-column .info-column h5{
@@ -3877,6 +3887,7 @@ img{
 	color: #222222;
 	font-weight: 600;
 	margin-right: 15px;
+	font-family:    font-family: Raleway, sans-serif !important;
 }
 
 .testimonial-block .inner-box .designation{
