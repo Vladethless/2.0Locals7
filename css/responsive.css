@@ -228,7 +228,7 @@
 		font-size: 30px;
 	}
 
-	.main-slider.style-two h2{
+	.main-slider.style-two .p_2{
 		font-size: 50px;
 	}
 
@@ -622,7 +622,7 @@
 		margin-bottom: 40px;
 	}
 
-	.main-slider.style-two h2{
+	.main-slider.style-two .p_2{
 		font-size: 40px;
 	}
 
@@ -1069,8 +1069,8 @@
 		line-height: 1.2em;
 	}
 
-	.main-slider.style-two h2,
-	.main-slider h2{
+	.main-slider.style-two .p_2,
+	.main-slider .p_2{
 		font-size: 20px;
 		line-height: 1.2em;
 	}
