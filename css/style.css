@@ -111,6 +111,7 @@ h1,h2,h3,h4,h5,h6 {
 	background:none;
 	line-height:1.6em;
 	font-family: 'Raleway', sans-serif;
+	color: #181818;
 }
 
 textarea{
@@ -1315,11 +1316,19 @@ img{
 }
 
 .main-slider.style-two .p_2{
-	font-size: 72px;
+	font-size: 50px;
 	color:#ffffff;
 	font-weight:700;
 	line-height:1.2em;
 	font-family: Raleway, sans-serif;
+}
+.main-slider.style-two .p_2 span{
+	font-size: 55px;
+	color:#ff9f14;;
+	font-weight:700;
+	line-height:1.2em;
+	font-family: Raleway, sans-serif;
+
 }
 
 .arrow-down{
@@ -1351,7 +1360,7 @@ img{
 
 .sec-title{
 	position: relative;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .sec-title .title{
@@ -1385,6 +1394,27 @@ img{
 	content: "";
 	display: inline-block;
 }
+.sec-title h2{
+	position: relative;
+	display: block;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #222222;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+.sec-title h3{
+	position: relative;
+	display: block;
+	font-size: 30px;
+	line-height: 1.2em;
+	color: #ff9f14;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+
+
+
 
 .sec-title .text{
 	display: block;
@@ -1901,7 +1931,7 @@ img{
 .service-block .icon-box{
 	position: absolute;
 	right: 35px;
-	top: 47px;
+	top: 30px;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -1967,16 +1997,17 @@ img{
 	transform: rotate(-59deg);
 }
 
-.service-block .lower-content h3{
+.service-block .lower-content .ph3{
 	display: block;
 	font-size: 22px;
 	line-height: 1.2em;
 	color: #222222;
 	font-weight: 500;
 	margin-bottom: 10px;
+	font-family: "Raleway", sans-serif;
 }
 
-.service-block .lower-content h3 a{
+.service-block .lower-content .ph3 a{
 	color: #222222;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -3253,9 +3284,9 @@ img{
 
 .project-detail .lower-content .title-box{
 	position: relative;
-	padding: 50px 0 54px;
+	padding: 0px 0 20px;
 	border-bottom: 2px solid #eeeeee;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 /* .project-detail .lower-content .title-box:before{
