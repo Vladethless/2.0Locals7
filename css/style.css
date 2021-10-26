@@ -162,7 +162,7 @@ ul,li{
 	line-height: 22px;
 	font-weight:400;
 	color:#222222;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding-left:30px;
 }
 
@@ -3380,7 +3380,9 @@ img{
 	font-weight: 700;
 	margin-bottom: 15px;
 } 
-
+.widget-content-2{
+	padding-top: 55px;
+}
 .project-detail .sub-title{
 	display: block;
 	font-size: 18px;
