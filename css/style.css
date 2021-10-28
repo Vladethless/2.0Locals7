@@ -1399,7 +1399,7 @@ img{
 	display: block;
 	font-size: 36px;
 	line-height: 1.2em;
-	color: #222222;
+	color: #ff9f14;
 	font-weight: 700;
 	padding-bottom: 25px;
 }
@@ -3387,10 +3387,10 @@ img{
 	display: block;
 	font-size: 18px;
 	line-height: 35px;
-	color: #7a7979;
-	font-weight: 400;
-	font-style: italic;
+	color: #5d5d5d;
+	font-weight: 500;
 	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .project-detail .two-column .info-column h5{
@@ -4004,7 +4004,7 @@ img{
 	line-height:38px;
 	font-size:18px;
 	color:#cccccc;
-	border:1px solid #cccccc;
+	border:2px solid #cccccc;
 	margin-left: 8px;
 	text-align:center;
 	-webkit-transition:all 300ms ease;
@@ -5416,11 +5416,11 @@ img{
 }
 
 .contact-page-section .heading-box .text p{
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 30px;
-	color: #666666;
-	font-weight: 400;
-
+	color: #000;
+	font-weight: 700;
+	padding-top: 30px;
 }
 
 .contact-form-two{
@@ -5530,7 +5530,7 @@ img{
 	width: 50px;
 	text-align: center;
 	line-height: 48px;
-	border:1px dashed #fbb908;
+	border:3px dashed #fbb908;
 	color: #222222;
 	font-size: 24px;
 }
